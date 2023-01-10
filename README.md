@@ -32,7 +32,7 @@ The largest block of all, containing the whole structure, is called the top-leve
 
 A Blocky board has a maximum allowed depth, which is the number of levels down it can go. A board with maximum allowed depth 0 would not be fun to play on – it couldn’t be subdivided beyond the top level, meaning that it would be of one solid colour. This board was generated with maximum depth of 5:
 
-{img}
+![](blocky_game/images/levels-5(2).jpg?raw=true)
 
 For scoring, the units of measure are squares the size of the blocks at the maximum allowed depth. We will call these blocks unit cells. 
 
@@ -61,19 +61,19 @@ The Pass action does not mutate the block. It can be used by a player who wishes
 
 What makes moves interesting is that they can be applied to any block at any level. For example, if the user selects the entire top-level block for this board:
 
-{img}
+![](blocky_game/images/rotate-before.jpg?raw=true)
 
 and chooses to rotate it counter-clockwise, the resulting board is this:
 
-{img}
+![](blocky_game/images/rotate-level0.jpg?raw=true)
 
 But if instead, on the original board, they rotated the block at level 1 (one level down from the top-level block) in the upper left-hand corner, the resulting board is this:
 
-{img}
+![](blocky_game/images/rotate-level1.jpg?raw=true)
 
 And if instead they were to rotate the block a further level down, still sticking in the upper-left corner, they would get this:
 
-{img}
+![](blocky_game/images/rotate-level2.jpg?raw=true)
 
 Of course there are many other blocks within the board at various levels that the player could have chosen.
 
